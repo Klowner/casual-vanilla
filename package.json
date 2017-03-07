@@ -1,0 +1,16 @@
+{
+  "name": "casual-vanilla",
+  "version": "1.5.11",
+  "description": "Fake data generator (monolithic UMD build)",
+  "main": "lib/casual-vanilla.js",
+  "scripts": {
+    "buildmin": "WEBPACK_ENV=build webpack",
+    "build": "WEBPACK_ENV=dev webpack"
+  },
+  "author": "Mark Riedesel <mark@klowner.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "casual-browserify": "^1.5.11",
+    "webpack": "^2.2.1"
+  }
+}
